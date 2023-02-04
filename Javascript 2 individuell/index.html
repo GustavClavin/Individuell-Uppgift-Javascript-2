@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="todo-form">
+            <input type="text" class="text-input" placeholder="Ny todo här!" validate="">
+            <input type="submit" class="submit-input">
+        </form>
+        <div class="errorMsg">
+            <p class="hidden red">You need to enter a todo first!!!</p>
+        </div>
+        <div class="output">
+            <h1>Todos:</h1>
+        </div>
+    </div>
+
+    <div class="modalContainer hidden">
+        <div class="modalWindow">
+            <p>You cannot delete an un-completed item!!!!!</p>
+            <button class="modalBtn">Ok :c</button>
+        </div>
+    </div>
+    
+</body>
+</html>
